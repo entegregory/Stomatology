@@ -64,7 +64,7 @@ Tourists and travelers in need of emergency dental care
     -Consider using popular colors for medical websites: white, blue, green, and gray
     -Associations with cleanliness, calmness, and professionalism
 2 Photos:
-
+   -Add pretty favicon
    -Use high-quality images
    -Illustrate the offered services, clinic equipment, and working atmosphere
    -Photos should be up-to-date and reflect reality
@@ -99,6 +99,7 @@ Tourists and travelers in need of emergency dental care
    -Рассмотреть использование популярных цветов для медицинских сайтов: белый, голубой, зеленый и серый
    -Ассоциации с чистотой, спокойствием и профессионализмом
 2 Фотографии:
+   -Добавить симпатичную фавиконку
    -Использовать высококачественные изображения
    -Иллюстрировать предлагаемые услуги, оборудование клиники и рабочую атмосферу
    -Фотографии должны быть актуальными и отражать реальность
