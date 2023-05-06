@@ -1,4 +1,5 @@
 # Stomatology
+
   -List of potential clients:
   -Local residents in need of routine dental care (cleaning, filling, tooth extraction, etc.)
   -Families with children for preventive check-ups and treatments
@@ -7,8 +8,11 @@
   -Seasonal or temporary workers (e.g., construction, agricultural workers)
   -Community members with limited means, for whom the dental clinic offers discounts or free services
 Tourists and travelers in need of emergency dental care
+
 # Stomatology
-# Список потенциальных клиентов:
+
+# Список потенциальных клиентов
+
   -Местные жители, нуждающиеся в рутинной стоматологической помощи (чистка, пломбирование, удаление зуба и т. д.)
   -Семьи с детьми для профилактического осмотра и лечения
   -Пожилые жители, нуждающиеся в протезировании и других специализированных услугах
@@ -16,7 +20,9 @@ Tourists and travelers in need of emergency dental care
   -Рабочие сезонных или временных работ (например, строители, сельскохозяйственные рабочие)
   -Члены сообщества с ограниченными средствами, для которых стоматология предлагает скидки или бесплатные услуги
   -Туристы и путешественники, нуждающиеся в экстренной стоматологической помощи
+
 # Functional requirements
+
   -Clinic information: brief information about the clinic, its history, philosophy, and specialization.
 
   -Services: a list of the dental services offered with a detailed description of each. This will help visitors understand what exactly your clinic offers.
@@ -36,7 +42,9 @@ Tourists and travelers in need of emergency dental care
   -Social media and marketing: integrate the website with the clinic's social media pages to attract more attention and facilitate communication with patients.
 
   -Privacy policy and security: how to ensure that the website complies with all requirements for the protection of personal data and patient confidentiality, as well as contains information about the privacy policy? Most likely, a lawyer specializing in medical law will be needed.
+
 # Functional requirements
+
   -Информация о клинике: краткая информация о клинике, ее истории, философии и специализации.
 
   -Услуги: перечисление предлагаемых стоматологических услуг с подробным описанием каждой из них. Это поможет посетителям понять, что именно предлагает ваша клиника.
@@ -56,7 +64,9 @@ Tourists and travelers in need of emergency dental care
   -Социальные сети и маркетинг: интеграция сайта со страницами клиники в социальных сетях, чтобы привлечь больше внимания и облегчить коммуникацию с пациентами.
 
   -Политика конфиденциальности и безопасность: как удостовериться, что сайт соблюдает все требования к защите персональных данных и конфиденциальности пациентов, а также содержит информацию о политике конфиденциальности? Скорее всего нужен будет юрист в области медправа
+
 # Technical task
+
   1 Color scheme:
 
     -Use neutral and calming colors
@@ -69,16 +79,16 @@ Tourists and travelers in need of emergency dental care
    -Illustrate the offered services, clinic equipment, and working atmosphere
    -Photos should be up-to-date and reflect reality
    -Free resources for visual materials:
-   -Unsplash (https://unsplash.com)
-   -Pexels (https://www.pexels.com)
-   -Pixabay (https://pixabay.com)
+   -Unsplash (<https://unsplash.com>)
+   -Pexels (<https://www.pexels.com>)
+   -Pixabay (<https://pixabay.com>)
 
 3 Icons and graphics:
 
    -Use simple and understandable icons and infographics for presenting services and medical information
    -Look for free icons on resources:
-   -Flaticon (https://www.flaticon.com)
-   -FontAwesome (https://fontawesome.com)
+   -Flaticon (<https://www.flaticon.com>)
+   -FontAwesome (<https://fontawesome.com>)
 4 Fonts:
 
    -Choose readable and professional-looking fonts, such as Arial,    Helvetica, or Open Sans
@@ -91,7 +101,9 @@ Tourists and travelers in need of emergency dental care
 
    -Adapt the visual design for mobile devices
    -Ensure comfortable browsing of the site on smartphones and tablets
+
 # Technical task
+
 1 Цветовая схема:
 
    -Использовать нейтральные и успокаивающие цвета
@@ -104,15 +116,15 @@ Tourists and travelers in need of emergency dental care
    -Иллюстрировать предлагаемые услуги, оборудование клиники и рабочую атмосферу
    -Фотографии должны быть актуальными и отражать реальность
    -Бесплатные ресурсы для визуальных материалов:
-   -Unsplash (https://unsplash.com)
-   -Pexels (https://www.pexels.com)
-   -Pixabay (https://pixabay.com)
+   -Unsplash (<https://unsplash.com>)
+   -Pexels (<https://www.pexels.com>)
+   -Pixabay (<https://pixabay.com>)
 3 Иконки и графика:
 
    -Использовать простые и понятные иконки и инфографику для представления услуг и медицинской информации
    -Искать бесплатные иконки на ресурсах:
-     -Flaticon (https://www.flaticon.com)
-     -FontAwesome (https://fontawesome.com)
+     -Flaticon (<https://www.flaticon.com>)
+     -FontAwesome (<https://fontawesome.com>)
 4 Шрифты:
 
    -Выбрать читабельные и профессионально выглядящие шрифты, например Arial, Helvetica или Open Sans

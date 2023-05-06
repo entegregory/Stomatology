@@ -1,0 +1,3 @@
+https://ctoma.ru/ use it as example
+What we do: services and prices are combined (different from the original), plus a "book now" button. The address is not necessary to search anywhere, it is also located at the top and left. One big picture for the prototype.
+Что делаем: услуги+цены объединены(отличие от оргинала), плюс кнопка "записаться". Адрес не нужно нигде искать, аналогично расположен сверху и слева. Одна большая картинка для прототипа.
