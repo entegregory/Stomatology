@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,31 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
+
 <body>
     <header>
-        <div class="address">Адрес клиники будет здесь</div>
         <nav class="menu">
-            <a href="#" class="menu-button">Стоматологическая клиника</a>
-            <a href="#" class="menu-button">Услуги</a>
-            <a href="#" class="menu-button">Записаться</a>
+            <a href="#" class="menu-button waves-effect waves-light btn">Адрес клиники будет здесь</a>
+            <a href="#" class="menu-button waves-effect waves-light btn">Стоматологическая клиника</a>
+            <a href="#" class="menu-button waves-effect waves-light btn">Услуги</a>
+            <a href="#" class="menu-button waves-effect waves-light btn">Записаться</a>
         </nav>
+        <div class="language-selector">
+            <select class="browser-default" id="language-select">
+                <option value="kz">Қазақша</option>
+                <option value="ky">Кыргызча</option>
+                <option value="ru" selected>Русский</option>
+                <option value="en">English</option>
+            </select>
+        </div>
     </header>
     <main>
         <div class="background-image"></div>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

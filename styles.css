@@ -1,8 +1,10 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     height: 100%;
+    background-color: #f0f0f0;
 }
 
 header {
@@ -13,30 +15,22 @@ header {
     z-index: 1;
 }
 
-.address {
-    text-align: center;
-    font-size: 18px;
-    padding-top: 15px;
-    font-weight: 500;
-}
-
 .menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
-    gap: 20px;
 }
 
 .menu-button {
-    text-decoration: none;
     font-size: 18px;
     color: #212121;
-    border: 1px solid #212121;
     border-radius: 4px;
     padding: 10px 20px;
     background-color: rgba(255, 255, 255, 0.8);
     transition: background-color 0.3s;
+    width: 20%;
+    text-align: center;
 }
 
 .menu-button:hover {
@@ -52,4 +46,27 @@ header {
     width: 100%;
     position: absolute;
     top: 20%;
+}
+
+.language-selector {
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+select {
+    display: block;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #212121;
+    border: 1px solid rgba(34, 34, 34, 0.3);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    margin: 0;
+    width: 100px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
