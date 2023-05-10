@@ -34,3 +34,5 @@
 - Participating in website support and updates, suggesting design improvements based on analysis of user data and feedback
 
 It is important that the full-stack developer and UX designer closely collaborate at all stages of website development to ensure smooth integration of design and functionality, as well as provide users with an optimal experience.
+                                      ###Start task
+09.05 (G) Used https://photoscissors.com/ for image background correction (background image has now low size). Named as "background_small.png"
