@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Стоматологическая клиника</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -14,23 +16,37 @@
 
 <body>
     <header>
-        <nav class="menu">
-            <a href="#" class="menu-button waves-effect waves-light btn" data-lang data-lang-kz="Клиника мекенжайы"
-                data-lang-ky="Клиникалык дарек" data-lang-ru="Адрес клиники" data-lang-en="Clinic address">Адрес клиники
-                будет здесь</a>
-            <a href="#" class="menu-button waves-effect waves-light btn" data-lang
-                data-lang-kz="Стоматологиялық клиника" data-lang-ky="Стоматология клиникасы"
-                data-lang-ru="Стоматологическая клиника" data-lang-en="Dental clinic">Стоматологическая клиника</a>
-            <a href="#" class="menu-button waves-effect waves-light btn" data-lang data-lang-kz="Қызметтер"
-                data-lang-ky="Кызматтар" data-lang-ru="Услуги" data-lang-en="Services">Услуги</a>
-            <a href="#" class="menu-button waves-effect waves-light btn" data-lang data-lang-kz="Тіркелу"
-                data-lang-ky="Каттоо" data-lang-ru="Записаться" data-lang-en="Sign up">Записаться</a>
-        </nav>
+        <div class="block1">
+            <button class="about_us_button">О нас</button>
+            <button class="services_button">Услуги</button>
+            <button class="appointment_button">Запись</button>
+            <button class="language_button">Русский</button>
+        </div>
+
     </header>
-    <div class="background-image"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="script.js"></script>
+
+    <main>
+        <div class="block2">
+            <div class="block2_1">
+                <span class="header-text_1">Семейная стоматология</span>
+                <br><br><!-- для создания отступа между строками я использовал два тега <br>, чтобы добавить две пустые строки между строками текста. Вместо этого можно использовать CSS свойство margin-top для задания отступа между строками-->
+                <span class="address-text">г. Чолпан-Аты, ул. Советская, 17/1</span>
+            </div>
+            <div class="block2_2">
+                <span class="working_time">График работы</span>
+                <br><!-- для создания отступа между строками я использовал два тега <br>, чтобы добавить две пустые строки между строками текста. Вместо этого можно использовать CSS свойство margin-top для задания отступа между строками-->
+                <span class="working_time_hours">Пн -Пт _________________ 9.00 - 18.00 </span>
+            </div>              
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="block3">
+            <button class="appointment_button_2">Записаться</button>
+            <button class="services_button_2">Услуги</button>
+        </div>   
+    </footer>
 </body>
 
 </html>

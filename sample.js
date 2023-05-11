@@ -27,23 +27,32 @@ var translations = {
         'title': 'Стоматология',
         'address': 'Дарек: Мисалдуу көчө, 123, Мисалдуу шаар',
         'services': 'Кызмат көрсөтүүлөр',
-        'prices': 'Баалар',   
-        'about': 'Биз жөнүндө',     
+        'prices': 'Баалар',
+        'about': 'Биз жөнүндө',
         'info': 'Кошумча маалымат: бул жерде клиникаңыз же кызматтарыңыз жөнүндө маалымат болушу мүмкүн.',
     }
 }
 
+var currentLanguage = 'ru';
+
 function translate(language) {
     var elements = document.querySelectorAll('[data-translate]');
 
-    elements.forEach(function(element) {
+    elements.forEach(function (element) {
         element.innerText = translations[language][element.dataset.translate];
     });
 }
 
-document.getElementById('languageButton').addEventListener('change', function() {
-    var selectedLanguage = this.value;
-    translate(selectedLanguage);
-});
+document.getElementById('languageButton').addEventListener('click', function () {
+    if (currentLanguage === 'ru') {
+        currentLanguage = 'en';
+    } else if (currentLanguage === 'en') {
+        currentLanguage = 'kz';
+    } else if (currentLanguage === 'kz') {
+        currentLanguage = 'ky';
+    } else {
+        currentLanguage = 'ru';
+    }
 
-       
+    translate(currentLanguage);
+});

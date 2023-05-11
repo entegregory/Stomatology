@@ -4,24 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Стоматология</title>
+    <title data-translate="title">Стоматология</title>
     <link rel="stylesheet" href="sample.css">
 </head>
 
 <body>
-    <div class="address">
-        <p>Адрес: улица Примеров, дом 123, город Примеров</p>
+    <div id="address" data-translate="address">Адрес: улица Примеров, дом 123, город Примеров</div>
+
+    <div id="buttonBlock">
+        <button id="servicesButton" data-translate="services">Услуги</button>
+        <button id="pricesButton" data-translate="prices">Цены</button>
+        <button id="aboutButton" data-translate="about">О нас</button>
+        <select id="languageButton">
+            <option value="ru" selected>Русский</option>
+            <option value="en">English</option>
+            <option value="kz">Қазақша</option>
+            <option value="ky">Кыргызча</option>
+        </select>
     </div>
-    <div class="buttons">
-        <button type="button">Услуги</button>
-        <button type="button">Цены</button>
-        <button type="button">О нас</button>
-        <button type="button">Контакты</button>
+
+    <img id="imageBlock" src="https://via.placeholder.com/150">
+
+    <div id="additionalInfo" data-translate="info">Дополнительная информация: здесь может быть информация о вашей
+        клинике или услугах.</div>
+
     </div>
-    <div class="background"></div>
-    <div class="info">
-        <p>Дополнительная информация: здесь может быть информация о вашей клинике или услугах.</p>
-    </div>
+    <script src="sample.js"></script>
 </body>
 
 </html>
