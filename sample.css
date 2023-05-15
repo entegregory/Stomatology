@@ -1,40 +1,465 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    position: relative;
+/* Стили для экрана с разрешением 1920x1080 */
+@media screen and (min-width: 1440px) {
+    .container {
+        position: relative;
+        width: 100%;
+        height: 1080px;
+    }
+
+    header {
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+        background: rgba(34, 148, 141, 0.64);
+    }
+
+    .header_button_about_us,
+    .header_button_services,
+    .header_button_appointment,
+    .header_button_language {
+        background: transparent;
+        border: none;
+        padding: 0;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
+
+    .header_button_about_us {
+        position: absolute;
+        width: 80px;
+        height: 32px;
+        left: 53px;
+        top: 37px;
+
+
+    }
+
+    .header_button_about_us .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #F5F5F5;
+        /*/*border: 1px solid #F5F5F5;*/
+        */
+    }
+
+    .header_button_services {
+        position: absolute;
+        width: 86px;
+        height: 32px;
+        left: 362px;
+        top: 37px;
+
+    }
+
+    .header_button_services .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_appointment {
+        position: absolute;
+        width: 90px;
+        height: 32px;
+        left: 677px;
+        top: 38px;
+
+    }
+
+    .header_button_appointment .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_language {
+        position: absolute;
+        width: 101px;
+        height: 40px;
+        left: 1217px;
+        top: 37px;
+
+    }
+
+    .header_button_language .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        /*border: 1px solid #FFFFFF;*/
+    }
+
+    main {
+        background-image: url('images/background.jpg');
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        width: 100%;
+        height: 979px;
+        left: 0px;
+        top: 80px;
+    }
+
+    footer { background: rgba(34, 148, 141, 0.64)
+        position: absolute;
+        width: 100%;
+        height: 290px;
+        left: 0px;
+        top: 790px;
+    }
 }
 
-.background {
-    background-image: url('images/background_small.png');
-    background-size: cover;
-    flex-grow: 1;
-    width: 100%;
+/* Стили для экрана с разрешением 1439x1014 */
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+    .container {
+        position: relative;
+        width: 1439px;
+        height: 1014px;
+    }
+
+    header {
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        left: 0px;
+        top: 0px;
+        background: rgba(34, 148, 141, 0.64);
+    }
+
+    .header_button_about_us {
+        position: absolute;
+        width: 60px;
+        height: 24px;
+        left: 40px;
+        top: 28px;
+
+    }
+
+    .header_button_about_us .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #F5F5F5;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_services {
+        position: absolute;
+        width: 66px;
+        height: 24px;
+        left: 349px;
+        top: 28px;
+
+    }
+
+    .header_button_services .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_appointment {
+        position: absolute;
+        width: 70px;
+        height: 24px;
+        left: 664px;
+        top: 29px;
+
+    }
+
+    .header_button_appointment .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_language {
+        position: absolute;
+        width: 81px;
+        height: 32px;
+        left: 1204px;
+        top: 28px;
+
+    }
+
+    .header_button_language .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+    }
+
+    main {
+        background-image: url('images/background.jpg');
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        width: 100%;
+        height: 733px;
+        left: 0px;
+        top: 60px;
+    }
+
+    footer { background: rgba(34, 148, 141, 0.64)
+        position: absolute;
+        width: 100%;
+        height: 217px;
+        left: 0px;
+        top: 793px;
+    }
 }
 
-.buttons {
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
+/* Стили для экрана с разрешением 1280x832 */
+@media screen and (max-width: 1280px) {
+    .container {
+        position: relative;
+        width: 100%;
+        height: 832px;
+    }
+
+    header {
+        position: absolute;
+        width: 100%;
+        height: 53px;
+        left: 0px;
+        top: 0px;
+        background: rgba(34, 148, 141, 0.64);
+    }
+
+    .header_button_about_us {
+        position: absolute;
+        width: 50px;
+        height: 20px;
+        left: 30px;
+        top: 23px;
+
+    }
+
+    .header_button_about_us .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #F5F5F5;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_services {
+        position: absolute;
+        width: 56px;
+        height: 20px;
+        left: 284px;
+        top: 23px;
+
+    }
+
+    .header_button_services .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px line-height: 20px;
+        color: #FFFFFF;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_appointment {
+        position: absolute;
+        width: 60px;
+        height: 20px;
+        left: 539px;
+        top: 24px;
+
+    }
+
+    .header_button_appointment .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_language {
+        position: absolute;
+        width: 69px;
+        height: 26px;
+        left: 976px;
+        top: 23px;
+
+    }
+
+    .header_button_language .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+    }
+
+    main {
+        background-image: url('images/background.jpg');
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        width: 100%;
+        height: 656px;
+        left: 0px;
+        top: 53px;
+    }
+
+    footer { background: rgba(34, 148, 141, 0.64)
+        position: absolute;
+        width: 100%;
+        height: 123px;
+        left: 0px;
+        top: 709px;
+    }
 }
 
-button {
-    padding: 15px 30px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
+/* Стили для мобильных устройств */
+@media screen and (max-width: 600px) {
+    .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
 
-button:hover {
-    background-color: #008CBA;
-    color: white;
-}
+    header {
+        position: absolute;
+        width: 100%;
+        height: 40px;
+        left: 0px;
+        top: 0px;
+        background: rgba(34, 148, 141, 0.64);
+    }
 
-.address,
-.info {
-    margin: 10px 0;
-    width: 100%;
-    text-align: center;
+    .header_button_about_us {
+        position: absolute;
+        width: 30px;
+        height: 10px;
+        left: 15px;
+        top: 12px;
+
+    }
+
+    .header_button_about_us .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #F5F5F5;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_services {
+        position: absolute;
+        width: 33px;
+        height: 10px;
+        left: 142px;
+        top: 12px;
+
+    }
+
+    .header_button_services .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #FFFFFF;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_appointment {
+        position: absolute;
+        width: 35px;
+        height: 10px;
+        left: 269px;
+        top: 13px;
+
+    }
+
+    .header_button_appointment .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #FFFFFF;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_language {
+        position: absolute;
+        width: 40px;
+        height: 13px;
+        left: 488px;
+        top: 12px;
+
+    }
+
+    .header_button_language .button_text {
+        font-family: 'Inter';
+        font-style: normal font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+    }
+
+    main {
+        background-image: url('images/background.jpg');
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 40px;
+    }
+
+    footer { background: rgba(34, 148, 141, 0.64)
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        left: 0px;
+        bottom: 0px;
+    }
 }
