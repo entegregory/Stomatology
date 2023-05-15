@@ -1,0 +1,308 @@
+.header_button_about_us,
+.header_button_services,
+.header_button_appointment,
+.header_button_language {
+    background: transparent;
+    border: none;
+    padding: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_button_about_us .button_text,
+.header_button_services .button_text,
+.header_button_appointment .button_text,
+.header_button_language .button_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        position: relative;
+        width: 100%;
+        height: 1080px;
+    }
+
+    header {
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+        background: rgba(34, 148, 141, 0.64);
+    }
+
+    .header_button_about_us,
+    .header_button_services,
+    .header_button_appointment,
+    .header_button_language {
+        background: transparent;
+        border: none;
+        padding: 0;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
+
+    .header_button_about_us {
+        position: absolute;
+        width: 80px;
+        height: 32px;
+        left: 53px;
+        top: 37px;
+
+
+    }
+
+    .header_button_about_us .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #F5F5F5;
+        /*/*border: 1px solid #F5F5F5;*/
+        */
+    }
+
+    .header_button_services {
+        position: absolute;
+        width: 86px;
+        height: 32px;
+        left: 362px;
+        top: 37px;
+
+    }
+
+    .header_button_services .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_appointment {
+        position: absolute;
+        width: 90px;
+        height: 32px;
+        left: 677px;
+        top: 38px;
+
+    }
+
+    .header_button_appointment .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        /*border: 1px solid #F5F5F5;*/
+    }
+
+    .header_button_language {
+        position: absolute;
+        width: 101px;
+        height: 40px;
+        left: 1217px;
+        top: 37px;
+
+    }
+
+    .header_button_language .button_text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        /*border: 1px solid #FFFFFF;*/
+    }
+
+    main {
+        background-image: url('images/background.jpg');
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        width: 100%;
+        height: 979px;
+        left: 0px;
+        top: 80px;
+    }
+
+    footer { background: rgba(34, 148, 141, 0.64)
+        position: absolute;
+        width: 100%;
+        height: 290px;
+        left: 0px;
+        top: 790px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .header_button_about_us,
+    .header_button_services,
+    .header_button_appointment,
+    .header_button_language {
+        font-size: 20px;
+    }
+
+    .header_button_about_us {
+        left: 40px;
+    }
+
+    .header_button_services {
+        left: 320px;
+    }
+
+    .header_button_appointment {
+        left: 640px;
+    }
+
+    .header_button_language {
+        left: 960px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header_button_about_us,
+    .header_button_services,
+    .header_button_appointment,
+    .header_button_language {
+        font-size: 16px;
+    }
+
+    .header_button_about_us {
+        left: 20px;
+    }
+
+    .header_button_services {
+        left: 120px;
+    }
+
+    .header_button_appointment {
+        left: 220px;
+    }
+
+    .header_button_language {
+        left: 320px;
+    }
+}
+@media screen and (max-width: 1439px) {
+    .header_button_about_us {
+        position: absolute;
+        width: 60px;
+        height: 24px;
+        left: 40px;
+        top: 28px;
+    }
+
+    .header_button_services {
+        position: absolute;
+        width: 66px;
+        height: 24px;
+        left: 349px;
+        top: 28px;
+    }
+
+    .header_button_appointment {
+        position: absolute;
+        width: 70px;
+        height: 24px;
+        left: 664px;
+        top: 28px;
+    }
+
+    .header_button_language {
+        position: absolute;
+        width: 81px;
+        height: 24px;
+        left: 1204px;
+        top: 28px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .header_button_about_us {
+        position: absolute;
+        width: 80px;
+        height: 32px;
+        left: 53px;
+        top: 37px;
+    }
+
+    .header_button_services {
+        position: absolute;
+        width: 86px;
+        height: 32px;
+        left: 362px;
+        top: 37px;
+    }
+
+    .header_button_appointment {
+        position: absolute;
+        width: 90px;
+        height: 32px;
+        left: 677px;
+        top: 38px;
+    }
+
+    .header_button_language {
+        position: absolute;
+        width: 101px;
+        height: 32px;
+        left: 1217px;
+        top: 37px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header_button_about_us {
+        position: absolute;
+        width: 40px;
+        height: 16px;
+        left: 20px;
+        top: 14px;
+    }
+
+    .header_button_services {
+        position: absolute;
+        width: 46px;
+        height: 16px;
+        left: 174px;
+        top: 14px;
+    }
+
+    .header_button_appointment {
+        position: absolute;
+        width: 50px;
+        height: 16px;
+        left: 332px;
+        top: 14px;
+    }
+
+    .header_button_language {
+        position: absolute;
+        width: 61px;
+        height: 16px;
+        left: 602px;
+        top: 14px;
+    }
+}
