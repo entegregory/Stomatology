@@ -1,3 +1,19 @@
+@media screen and (max-width: 600px) {
+  body {
+    background: gray;
+  }
+
+  main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('images/background.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+
+}
+
 body {
   background-image: url('design_img/background.png');
   background-position: center center;
