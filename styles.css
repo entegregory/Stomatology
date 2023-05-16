@@ -1,45 +1,10 @@
-* {
+body {
+  background-image: url('design_img/background.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body, html {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.header {
-  background: rgba(34, 148, 141, 0.64);
-  padding: 1rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.main {
-  flex: 1;
-  background: url(images/background.jpg) no-repeat center center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 2rem;
-}
-
-.footer {
-  background: rgba(34, 148, 141, 0.64);
-  padding: 1rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
